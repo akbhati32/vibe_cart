@@ -111,12 +111,15 @@ Feel free to use and modify it for your own learning or project needs.
 
 ---
 ## Home
+<img width="1897" height="897" alt="Screenshot 2025-11-08 111833" src="https://github.com/user-attachments/assets/18390feb-9e27-4415-86f9-d5632427f2f1" />
 
 
 ## Cart
+<img width="1918" height="897" alt="Screenshot 2025-11-08 111919" src="https://github.com/user-attachments/assets/1a5f210b-3d13-4313-a44d-9022bfb349ed" />
 
 
 ## Checkout
+<img width="1919" height="895" alt="Screenshot 2025-11-08 111938" src="https://github.com/user-attachments/assets/02a7beee-6e65-4a3f-84b3-14b19945e81e" />
 
 
 ---
