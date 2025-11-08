@@ -9,25 +9,25 @@ experience in modern web development.
 
 ## 🚀 Features
 
--   Browse products with a clean, responsive UI.\
--   Add items to cart, adjust quantities, view total price.\
--   Persist cart state (across sessions) and sync with backend.\
--   Modern front‑end animations or 3D model integrations.\
+-   Browse products with a clean, responsive UI.
+-   Add items to cart, adjust quantities, view total price.
+-   Persist cart state (across sessions) and sync with backend.
+-   Modern front‑end animations or 3D model integrations.
 -   RESTful backend API endpoints to manage products.
 
 ------------------------------------------------------------------------
 
 ## 🧩 Tech Stack
 
-**Frontend**\
-- React (functional components)\
-- React Router (for navigating views)\
-- Tailwind CSS\
+**Frontend**
+- React (functional components)
+- React Router (for navigating views)
+- Tailwind CSS
 
-**Backend**\
-- Node.js with Express\
-- REST API routes for products, cart\
-- Database (MongoDB)\
+**Backend**
+- Node.js with Express
+- REST API routes for products, cart
+- Database (MongoDB)
 - Environment variables for secrets / API keys
 
 ------------------------------------------------------------------------
@@ -58,8 +58,8 @@ experience in modern web development.
 
 ### Prerequisites
 
--   Node.js and npm installed\
--   A running database (MongoDB)\
+-   Node.js and npm installed
+-   A running database (MongoDB)
 -   Git installed
 
 ### Installation
@@ -96,10 +96,10 @@ experience in modern web development.
 
 ## ✅ Usage
 
--   Nevigate the product catalogs.\
+-   Nevigate the product catalogs.
 -   Use the "Add to Cart" button, view your cart, update quantities or
-    remove items.\
--   Proceed to checkout and place an order.\
+    remove items.
+-   Proceed to checkout and place an order.
 
 ------------------------------------------------------------------------
 
@@ -108,5 +108,15 @@ Feel free to use and modify it for your own learning or project needs.
 
 ## 🙋‍♂️ Author
 **Aslam Bhati**
+
+---
+## Home
+
+
+## Cart
+
+
+## Checkout
+
 
 ---

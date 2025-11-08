@@ -5,6 +5,7 @@ export default function CartPage() {
   const [cart, setCart] = useState(() => JSON.parse(localStorage.getItem('cart') || '[]'))
   const [showReceipt, setShowReceipt] = useState(false)
   const [customer, setCustomer] = useState({ name: '', email: '' })
+  const [finalReceipt, setFinalReceipt] = useState({ items: [], total: 0 })
 
   const navigate = useNavigate()
 
@@ -19,7 +20,13 @@ export default function CartPage() {
   const total = cart.reduce((s, i) => s + i.price * i.qty, 0)
 
   function checkout() {
+    if (!customer.name || !customer.email) {
+      alert('Please enter your name and email before checkout.')
+      return
+    }
+    
     // simple client-side receipt
+    setFinalReceipt({ items: cart, total })
     setShowReceipt(true)
     // clear cart after checkout
     localStorage.removeItem('cart')
@@ -32,14 +39,14 @@ export default function CartPage() {
         <h2 className="text-xl font-bold mb-2">Receipt</h2>
         <p>Customer: {customer.name || 'Anonymous'} — {customer.email || '—'}</p>
         <ul className="mt-4 space-y-2">
-          {cart.map(i => (
+          {finalReceipt.items.map(i => (
             <li key={i._id} className="flex justify-between">
-              <div>{i.name} × {i.qty}</div>
+              <div>{i.name} x {i.qty}</div>
               <div>₹{i.price * i.qty}</div>
             </li>
           ))}
         </ul>
-        <div className="mt-4 text-right font-bold">Total: ₹{total}</div>
+        <div className="mt-4 text-right font-bold">Total: ₹{finalReceipt.total}</div>
         <div className="mt-4 flex justify-end">
           <button onClick={() => navigate('/')} className="px-4 py-2 rounded bg-sky-600 text-white">Back to shop</button>
         </div>
