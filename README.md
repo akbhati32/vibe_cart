@@ -14,6 +14,7 @@ experience in modern web development.
 -   Persist cart state (across sessions) and sync with backend.
 -   Modern front‑end animations or 3D model integrations.
 -   RESTful backend API endpoints to manage products.
+-   Responsive Design
 
 ------------------------------------------------------------------------
 
@@ -22,7 +23,7 @@ experience in modern web development.
 **Frontend**
 - React (functional components)
 - React Router (for navigating views)
-- Tailwind CSS
+- Tailwind CSS (respoinsive design)
 
 **Backend**
 - Node.js with Express
@@ -89,7 +90,7 @@ experience in modern web development.
     npm start
     ```
 
-4.  Open your browser at `http://localhost:3000` (or whichever port you
+4.  Open your browser at `http://localhost:4000` (or whichever port you
     set) and you should see the app.
 
 ------------------------------------------------------------------------
@@ -123,3 +124,6 @@ Feel free to use and modify it for your own learning or project needs.
 
 
 ---
+
+## Project Explain
+[video](https://screenrec.com/share/LpiN8EnTBA)
